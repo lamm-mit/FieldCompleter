@@ -10,5 +10,5 @@
 conda env create -f environment.yml
 ```
 **Dataset**
-- Example dataset: Stress field (&sigma<sub>11</sub>)
+- Example dataset: Stress field (&sigma;<sub>11</sub>)
 - The datasets can be found in the following link: https://www.dropbox.com/sh/w3b8u0i63r2y1kq/AACF8mukZ9nDdG4MGj3F1kCUa?dl=0
