@@ -36,7 +36,7 @@ conda env create -f environment.yml
 ```
 **Dataset**
 - Example dataset: Stress field (&sigma;<sub>11</sub>) in the 3D digital composites with linear elasticity under uniaxial compression.
-- The dataset can be found in the following link: https://www.dropbox.com/s/2c92uozeibmgvr4/S11.npy?dl=0. **S11.npy** store matrix represent all 3D stress fields. **labels_train.npy** and **labels_test.npy** are train/test sequences representing geometries of 3D composites. 
+- The dataset can be found in the following link: https://www.dropbox.com/sh/5gntfr7ittue5fh/AACE2D-GOeTHhR2zCMcUCXila?dl=0. **S11.npy** store matrix represent all 3D stress fields. **labels_train.npy** and **labels_test.npy** are train/test sequences representing geometries of 3D composites. 
 
 **Training**
 - The training starts from scratch.
@@ -46,5 +46,5 @@ python3 train.py
 ```
 
 **Testing**
-- The testing part is stored in **test.ipynb** including 2D field completion and inverse translation from field to geometry. 
-- The pretrained checkpoints for DeepFill model and CNN model can be found here: https://www.dropbox.com/sh/1d37uqr0nj73ky9/AADMBbRw8iZgLKy2o4fJlfW3a?dl=0. The paths to checkpoints need to be specified in **test.ipynb**.
+- The testing part is stored in **test.ipynb** including 3D field completion and inverse translation from field to geometry. 
+- The pretrained checkpoints for ViViT model and CNN model can be found here: https://www.dropbox.com/sh/ulz37l3ang5hfjf/AAB1dr2yX2AJw26bGSE582S4a?dl=0. The paths to checkpoints need to be specified in **test.ipynb**.
