@@ -32,3 +32,5 @@ python3 -u train.py --config configs/train-S11-pretrained.yaml
 ```
 **Requirements**
 ```
+conda env create -f environment.yml
+```
