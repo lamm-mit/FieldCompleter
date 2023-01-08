@@ -36,7 +36,7 @@ conda env create -f environment.yml
 ```
 **Dataset**
 - Example dataset: Stress field (&sigma;<sub>11</sub>) in the 3D digital composites with linear elasticity under uniaxial compression.
-- The dataset can be found in the following link: https://www.dropbox.com/s/2c92uozeibmgvr4/S11.npy?dl=0.
+- The dataset can be found in the following link: https://www.dropbox.com/s/2c92uozeibmgvr4/S11.npy?dl=0. **S11.npy** store matrix represent all 3D stress fields. **labels_train.npy** and **labels_test.npy** are train/test sequences representing geometries of 3D composites. 
 **Training**
 - The training starts from scratch.
 - The hyperparameters and training details can be modified directly in **vivit.py**.
