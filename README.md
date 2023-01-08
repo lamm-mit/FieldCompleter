@@ -18,7 +18,7 @@ conda env create -f environment.yml
 - The pretrained checkpoint can be found here: https://www.dropbox.com/sh/eiy0n6xjc0e2a05/AADvGvn75n0WObEqBFwEletQa?dl=0.
 - The hyperparameters and training details can be modified via the configuration file **train-S11-pretrained.yaml**.
 ```
-python3 -u train.py --config configs/train-S11-pretrained.yaml
+python3 train.py --config configs/train-S11-pretrained.yaml
 ```
 
 **Testing**
@@ -37,3 +37,10 @@ conda env create -f environment.yml
 **Dataset**
 - Example dataset: Stress field (&sigma;<sub>11</sub>) in the 3D digital composites with linear elasticity under uniaxial compression.
 - The dataset can be found in the following link: https://www.dropbox.com/s/2c92uozeibmgvr4/S11.npy?dl=0.
+- 
+**Training**
+- The training starts from scratch.
+- The hyperparameters and training details can be modified directly in **vivit.py**.
+```
+python3 train.py 
+```
