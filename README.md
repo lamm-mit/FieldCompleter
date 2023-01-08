@@ -23,7 +23,7 @@ python3 train.py --config configs/train-S11-pretrained.yaml
 
 **Testing**
 - The testing part is stored in **test.ipynb** including 2D field completion and inverse translation from field to geometry. 
-- The pretrained checkpoints for DeepFill model and CNN model can be found here: https://www.dropbox.com/sh/1d37uqr0nj73ky9/AADMBbRw8iZgLKy2o4fJlfW3a?dl=0
+- The pretrained checkpoints for DeepFill model and CNN model can be found here: https://www.dropbox.com/sh/1d37uqr0nj73ky9/AADMBbRw8iZgLKy2o4fJlfW3a?dl=0. The paths to checkpoints need to be specified in **test.ipynb**.
 
 ## 3D Mechanical Field Completion using modified ViViT model
 **Working directory**
@@ -43,4 +43,7 @@ conda env create -f environment.yml
 ```
 python3 train.py 
 ```
+
 **Testing**
+- The testing part is stored in **test.ipynb** including 2D field completion and inverse translation from field to geometry. 
+- The pretrained checkpoints for DeepFill model and CNN model can be found here: https://www.dropbox.com/sh/1d37uqr0nj73ky9/AADMBbRw8iZgLKy2o4fJlfW3a?dl=0. The paths to checkpoints need to be specified in **test.ipynb**.
