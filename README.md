@@ -1,5 +1,8 @@
 # FieldCompleter
 
+- Z. Yang, M.J. Buehler, “Fill in the Blank: Transferrable Deep Learning Approaches to Recover Missing Physical Field Information,” Adv. Materials, https://doi.org/10.1002/adma.202301449, 2023
+
+
 ## 2D Mechanical Field Completion using DeepFill Model
 **Working directory**
 ```
