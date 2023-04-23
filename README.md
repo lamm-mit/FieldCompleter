@@ -1,10 +1,10 @@
 # FieldCompleter
 
+Z. Yang, M.J. Buehler, “Fill in the Blank: Transferrable Deep Learning Approaches to Recover Missing Physical Field Information,” Adv. Materials, https://doi.org/10.1002/adma.202301449, 2023
+
 Solving materials engineering tasks is often hindered by limited information, such as in inverse problems with only boundary data information or design tasks with a simple objective but a vast search space. To address these challenges, we leverage multiple deep learning (DL) architectures to predict missing mechanical information given limited known data in part of the domain, and further characterize the composite geometries from the recovered mechanical fields for 2D and 3D complex microstructures. In 2D, we utilize a conditional generative adversarial network (GAN) to complete partially masked field maps and predict the composite geometry with convolutional models with great accuracy and generality by making precise predictions on field data with mixed stress/strain components, hierarchical geometries, distinct materials properties and various types of microstructures including ill-posed inverse problems. In 3D, a Transformer-based architecture is implemented to predict complete 3D mechanical fields from input field snapshots. The model manifests excellent performance regardless of microstructural complexity and recovers the entire bulk field even from a single surface field image, allowing internal structural characterization from only boundary measurements. The whole frameworks provide efficient ways for analysis and design with incomplete information and allow the direct inverse translation from properties back to materials structures.
 
 ![Overall workflow](https://github.com/lamm-mit/FieldCompleter/blob/main/Figure.png)
-
-Z. Yang, M.J. Buehler, “Fill in the Blank: Transferrable Deep Learning Approaches to Recover Missing Physical Field Information,” Adv. Materials, https://doi.org/10.1002/adma.202301449, 2023
 
 ## 2D Mechanical Field Completion using DeepFill Model
 **Working directory**
