@@ -4,7 +4,7 @@ Solving materials engineering tasks is often hindered by limited information, su
 
 ![Overall workflow](https://github.com/lamm-mit/FieldCompleter/blob/main/Figure.png)
 
-### Reference
+*Reference* 
 
 Z. Yang, M.J. Buehler, “Fill in the Blank: Transferrable Deep Learning Approaches to Recover Missing Physical Field Information,” Adv. Materials, https://doi.org/10.1002/adma.202301449, 2023
 - 
